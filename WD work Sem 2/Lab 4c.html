@@ -1,0 +1,68 @@
+<html>
+<head>
+    <title>Form</title>
+    <style>
+        .btn-income{
+            background-color: #1BBA93;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <fieldset style="width:fit-content; padding:30; background-color:cadetblue;">
+    <form align="center" style="background-color:white;">
+        <table cellpadding="10%">
+    <caption><h1 style="font-family:sans-serif; color:#666; background-color:white;">Create Account</h1></caption>
+    <tr>
+        <td style="color:#1BBA93;"><b>First name*<br><input type="text" placeholder="enter your first name"></td>
+        <td style="color:#1BBA93;"><b>Last name<br><input type="text" placeholder="enter your last name"></td>
+        </tr>
+        
+        <tr>
+        <td style="color:#1BBA93;" colspan="2"><b>Email*<br><input type="email" placeholder="enter your email" style="width:100%;"></td>
+        </tr>
+
+        <tr>
+        <td style="color:#1BBA93;"><b>Password*<br><input type="password" placeholder="enter your password"></td>
+        <td style="color:#1BBA93;"><b>Confirm password*<br><input type="password" placeholder="enter your password again"></td>
+        </tr>
+
+        <tr>
+        <td style="color:#1BBA93;"><b>Gender:<br><input type="radio" name="gender"><span style="color:rgb(83, 83, 83);">Male</span>
+               <input type="radio" name="gender"><span style="color:rgb(83, 83, 83);">Female</span></td>
+        <td style="color:#1BBA93;"><b>Hobbies<br>
+                <input type="checkbox"><span style="color:rgb(83, 83, 83);">Music</span>
+                <input type="checkbox"><span style="color:rgb(83, 83, 83);">Sports</span><br>
+                <input type="checkbox"><span style="color:rgb(83, 83, 83);">Travel</span>
+                <input type="checkbox"><span style="color:rgb(83, 83, 83);">Movies</span></td>
+        </tr>
+
+        <tr>
+        <td style="color:#1BBA93;"><b>Source of Income<br><select name="">
+            <option value="">Employed</option>
+            <option value="">Self-employed</option>
+            <option value="">Student</option>
+            <option value="">Retired</option>
+        </select></td>
+        <td style="color:#1BBA93;"><b>Income<br><input type="range"><button class="btn-income">20K</button></td>
+        </tr>
+        
+        <tr>
+        <td style="color:#1BBA93;"><b>Upload Profile Picture<br><input type="file"></td>
+        <td style="color:#1BBA93;"><b>Age<br><input type="number"></td>
+        </tr>
+
+        <tr>
+        <td style="color:#1BBA93;" colspan="2"><b>Bio<br><textarea name="" cols="30" rows="4" style="width:100%;"></textarea></td>
+        </tr>
+        
+        <hr>
+        <tr>
+        <td><input type="submit" value="Create" style="background-color:#1BBA93;"></td>
+        </tr>
+
+        </table>    
+        </form>
+    </fieldset>
+</body>
+</html>
