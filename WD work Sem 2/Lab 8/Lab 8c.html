@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        *{
+            box-sizing : border-box;
+        }
+        body {
+            background-color: black;
+        }
+        .header{
+            width: 100%;
+            height: 100px;
+            background-color: #eeeeee61;
+        }
+        h1 {
+            color: rgb(0, 0, 0);
+            float: left;
+            margin: 0;
+            font-family: 'Caveat', cursive;
+            font-size: 50px;
+        }
+        .navbar {
+            float: right;
+            display: flex;
+            gap: 70px;
+            font-family: 'Teko', sans-serif;
+            margin-top: 15px;
+            margin-right: 15px;
+            font-size: 40px;
+            margin-bottom: 100px;
+            
+        }
+        .navbar > a {
+            color: white;
+            text-decoration: none;
+            position: relative;
+        }
+        .navbar > a::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 0.2rem;
+            background: #D65A31;
+            left: 0;
+            bottom: 0;
+            transform: scale(0, 1);
+            transition: transform 0.3s ease;
+        }
+        .navbar > a:hover::after {
+            transform: scale(1, 1);
+        }
+        .navbar > span > a {
+            background-color: white;
+            color: black;
+            text-decoration: none;
+            border-radius: 15%/50%;
+            display: inline-block;
+            width: 200px;
+            text-align: center;
+            position: relative;
+            transition: 0.3s ease;
+        }
+        .navbar > span > a:hover {
+            background-color: #D65A31;
+            color: #EEEEEE;
+        }
+        .text {
+            text-align: center;
+            color: white;
+            clear: both;
+            
+            font-family: 'Kanit', sans-serif;
+            font-size: 40px;
+            margin: 0px 20% 50px 20%;
+        }
+        .name {
+            color: #D65A31;
+        }
+        .container1 {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            font-family: 'Kanit', sans-serif;
+        }
+        .container1:hover {
+            .side {
+                margin-top: 200px;
+            }
+        }
+        .container1 > .image > img {
+            border-radius: 50%/30%;
+            width: 60%;
+            height: 500px;
+            object-fit: cover;
+        }
+        .image {
+            text-align: center;
+        }
+        .side {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+            width: 15%;
+            height: 70px;
+            border-radius: 15%/50%; 
+            transition: .5s ease;
+        }
+        .side > .title{
+            color: #EEEEEE;
+            font-size: 20px;
+        }
+        .side > .duration {
+            color: #D65A31;
+            font-size: 15px;
+        }
+        .side_l {
+            margin-top: 70px;
+            padding-top: 5px;
+            padding-left: 25px;
+        }
+        .side_r {
+            margin-top: 345px;
+            padding-top: 5px;
+            padding-left: 25px;
+        }
+        .container2 {
+            display: flex;
+            margin-top: 50px;
+            background-color: gray;
+            width: 100%;
+            height: 150px;
+            justify-content: space-evenly;
+        }
+        .container2 > div {
+            text-align: center;
+            width: 33%;
+        }
+        .container2 > .google {
+            padding-top: 40px;
+        }
+        .container2 > .microsoft {
+            padding-top: 0px;
+        }
+        .container2 > .amazon {
+            padding-top: 45px;
+        }
+        .container2 > .google > img {
+            height: 80px;
+        }
+        .container2 > .microsoft > img {
+            height: 150px;
+        }
+        .container2 > .amazon > img {
+            height: 80px;
+        }
+        footer {
+            font-family: 'Kanit', sans-serif;
+        }
+        .info {
+            display: flex;
+            justify-content: center;
+        }
+        .about {
+            color: #D65A31;
+            font-size: 100px;
+            margin: 70px;
+            width: 20%;
+        }
+        .about_info {
+            color: #eeeeee99;
+            font-size: 30px;
+            width: 40%;
+            margin-top: 85px;
+            margin-left: 40px;
+        }
+        .closure {
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 40px;
+            height: 400px;
+        }
+        .closure_info {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .num {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));    
+            color: #D65A31;
+            height:100px;
+            width: 100px;
+            border-radius: 30px;
+            display: flex; 
+            font-size: 40px;
+            justify-content: center;
+            align-items: center;
+        }
+        .num_info {
+            color: #EEEEEE;
+            width: 40%;
+            padding-left: 10px;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Jay </h1>
+        <div class="navbar">
+            <a href="">Home</a>
+            <a href="#footer">About</a>
+            <a href="">Services</a>
+            <span class="lets_talk"><a href="">Let's Talk</a></span>
+        </div>
+    </div>
+    <main>
+        <div class="text">
+            I'm <span class="name">Jay Patel</span>. I will create web design that will give value to your company.
+        </div>
+        <div class="container1">
+            <div class="side side_l">
+                <span class="title">UI/UX Designer</span>
+                <br>
+                <span class="duration">4 years</span>
+            </div>
+            <div class="image">
+                <img src="./WhatsApp Image 2024-02-24 at 16.40.20_35ccbde1.jpg" alt="">
+            </div>
+            <div class="side side_r">
+                <span class="title">Web Developer</span>
+                <br>
+                <span class="duration">2 years</span>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="google">
+                <img src="./Assets/google_logo.png" alt="" height="100px">
+            </div>
+            <div class="microsoft">
+                <img src="./Assets/microsoft_logo.png" alt="">
+            </div>
+            <div class="amazon">
+                <img src="./Assets/amazon_logo.png" alt="">
+            </div>
+        </div>
+    </main>
+    <footer id="footer">
+        <div class="info">
+            <div class="about">About Me.</div>
+            <div class="about_info">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis enim ducimus aspernatur officiis cum, magni commodi aliquam, rem repellendus eveniet distinctio et accusamus repellat cumque incidunt quisquam vel illum aperiam odio sint veritatis delectus iste? Rerum facere, sint sit eum autem officia id assumenda consectetur ullam libero reiciendis velit fuga!
+            </div>
+        </div>
+        <div class="closure">
+            <div class="closure_info">
+                <div class="num">4K</div>
+                <div class="num_info">Projects Done</div>
+            </div>
+            <div class="closure_info">
+                <div class="num">2K</div>
+                <div class="num_info">Happy Clients</div>
+            </div>
+            <div class="closure_info">
+                <div class="num" style="">9K</div>
+                <div class="num_info">Clients on Worldwide
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
