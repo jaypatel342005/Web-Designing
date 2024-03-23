@@ -1,0 +1,188 @@
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <style>
+        #a{
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-2 bg-dark text-white min-vh-100">
+                <h5 class="mt-2 text-center">Open Admin</h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Dashboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Admin</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Helpers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Media manager</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Config</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Api tester</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Page Designer</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-10"><i id="a" class="bi bi-list"></i></div>
+                    <div class="col-2"><i class="bi bi-person-fill"></i> Administrator</div>
+                </div>
+                <div class="bg-light" style="height: 660px;">
+                    <div class="row">
+                        <h3 class="col-10">Page List</h3>
+                        <div class="col-2"><i class="bi bi-house-door-fill"></i> Home/Pages</div>
+                    </div>
+                    <div style="height: 620px;">
+                        <table class="table table-bordered bg-white">
+                            <div class="row">
+                                <div class="col-10">
+                                    <button class="btn btn-success">+ New</button>
+                                    <button class="btn btn-primary">2 items selected</button>
+                                    <button class="btn btn-primary">Filter</button>
+                                    <button class="btn btn-danger">Report</button>
+                                </div>
+                                <div class="col-2">
+                                <button class="btn btn-primary">Export</button>
+                                <button class="btn btn-primary">🗓</button>
+                                </div>
+                            </div>
+                          <thead>
+                              <tr>
+                                  <th>ID</th>
+                                  <th>Title</th>
+                                  <th>Date</th>
+                                  <th>Tags</th>
+                                  <th>Star</th>
+                                  <th>Created at</th>
+                                  <th>Updated at</th>
+                                  <th>Action</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>1</td>
+                                  <td>Homepage</td>
+                                  <td>2022-06-25</td>
+                                  <td><button class="badge btn-success">new</button> <button class="badge btn-success">special</button></td>
+                                  <td>⭐</td>
+                                  <td>2022-02-17 00:51:01</td>
+                                  <td>2022-06-25 14:30:21</td>
+                                  <td>
+                                      <button class="btn btn-info">👁</button>
+                                      <button class="btn btn-success">✏</button>
+                                      <button class="btn btn-danger">🗑</button>
+                                      <button class="btn btn-success">🧪</button>
+                                  </td>
+                              </tr>
+                              <tr class="bg-warning">
+                                <td>2</td>
+                                <td>Blog</td>
+                                <td>2022-06-25</td>
+                                <td><button class="badge btn-success">new</button></td>
+                                <td>⭐</td>
+                                <td>2022-06-25 14:30:33</td>
+                                <td>2022-06-25 14:30:33</td>
+                                <td class="bg-white">
+                                    <button class="btn btn-info">👁</button>
+                                    <button class="btn btn-success">✏</button>
+                                    <button class="btn btn-danger">🗑</button>
+                                    <button class="btn btn-success">🧪</button>
+                                </td>
+                            </tr>
+                              <tr>
+                                <td>3</td>
+                                <td>About us</td>
+                                <td>2022-06-25</td>
+                                <td></td>
+                                <td>⭐</td>
+                                <td>2022-06-25 14:36:58</td>
+                                <td>2022-06-25 14:37:40</td>
+                                <td>
+                                    <button class="btn btn-info">👁</button>
+                                    <button class="btn btn-success">✏</button>
+                                    <button class="btn btn-danger">🗑</button>
+                                    <button class="btn btn-success">🧪</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>Contact us</td>
+                                <td>2022-06-25</td>
+                                <td><button class="badge btn-success">code</button> <button class="badge btn-success">special</button></td>
+                                <td>⭐</td>
+                                <td>2022-06-25 14:37:12</td>
+                                <td>2022-06-25 14:39:16</td>
+                                <td>
+                                    <button class="btn btn-info">👁</button>
+                                    <button class="btn btn-success">✏</button>
+                                    <button class="btn btn-danger">🗑</button>
+                                    <button class="btn btn-success">🧪</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>Cases</td>
+                                <td>2022-06-25</td>
+                                <td></td>
+                                <td>⭐</td>
+                                <td>2022-06-25 14:37:22</td>
+                                <td>2022-06-25 14:37:36</td>
+                                <td>
+                                    <button class="btn btn-info">👁</button>
+                                    <button class="btn btn-success">✏</button>
+                                    <button class="btn btn-danger">🗑</button>
+                                    <button class="btn btn-success">🧪</button>
+                                </td>
+                            </tr>
+                            <tr class="bg-warning">
+                                <td>6</td>
+                                <td>Clients</td>
+                                <td>2022-06-25</td>
+                                <td><button class="badge btn-success">special</button></td>
+                                <td>⭐</td>
+                                <td>2022-06-25 14:37:28</td>
+                                <td>2022-06-25 14:37:28</td>
+                                <td class="bg-white">
+                                    <button class="btn btn-info">👁</button>
+                                    <button class="btn btn-success">✏</button>
+                                    <button class="btn btn-danger">🗑</button>
+                                    <button class="btn btn-success">🧪</button>
+                                </td>
+                            </tr>
+                          </tbody>
+                      </table>
+                      </div>
+                    </div>
+                    <div class="row bg-white">
+                        <div class="col-8 mt-1">Showing 1 to 6 of 6 entries</div>
+                        <div class="col-4">
+                            <div style="float: left;">Show <button class="btn btn-light"><select name="20" id=""><option value="20">20</option></select></button></div>
+                            <div class="ms-1" style="float: left;">entries <button class="btn btn-light"><<</button><button class="btn btn-info text-light">1</button><button class="btn btn-light">>></button></div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
