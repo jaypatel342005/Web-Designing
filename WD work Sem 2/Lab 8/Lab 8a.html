@@ -3,65 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lab 8a</title>
+    <title>Document</title>
+    <style>
+        nav{
+            display: flex;
+        }
+        .logo{
+            width: 10%;
+        }
+        .logo img{
+            width: 100%;
+        }
+        .nav-bar{
+            width: 90%;
+        }
+        .nav-bar ul{
+            display: flex;
+            list-style-type: none;
+            justify-content: end;
+            gap: 1rem;
+            margin: 0;
+        }
+        .nav-bar ul li a{
+            text-decoration: none;
+        }
+        .programer-section{
+            position: relative;
+        }
+        .programer-section img{
+            width: 100%;
+            height: 60vh;
+        }
+        .programer-section div{
+            position: absolute;
+            top: 16px;
+            right: 0;
+            width: 40%;
+        }
+        .programs-items{
+            display: flex;
+            justify-content: space-evenly;
+            margin: 6px 0;
+        }
+        .programs-items div{
+            width: 20%;
+            border: 2px solid red;
+            text-align: center;
+            height: 25vh;
+        }
+    </style>
 </head>
 <body>
-    <style>
-    .about{
-        color: blueviolet;
-        font-size:40px ;
-    }
-    .home{
-        float: left;
-        margin-right: 40px;
-    }
-    .about{
-        float: right;
-        margin-right: 40px;
-    }
-    .mywork{
-        float: right;
-        margin-right: 40px;
-    }
-    .contact{
-        float: right;
-        margin-right: 40px;
-    }
-    .login{
-        float: right;
-        margin-right: 40px;
-    }
-    .logo{
-        opacity: 60%;
-    }
-    .program1{
-        color: blue;
-        float: left;
-        border: 4px solid orange;
-        height: 200px;
-        width: 21%;
-        margin: 35px;
-    }
-    .sentence{
-        position: absolute; top: 300px; right: 500px;
-    }
-    </style>
-    <div><img src="./Darshanlogo.jpg" alt="" width="200px" height="90px">
-        <div class="about">
-            <div class="home"><a href="Home">Home</a></div>
-            <div class="contact"><a href="Contact">Contact</a></div>
-            <div class="mywork"><a href="My Work">My Work</a></div>
-            <div class="login"><a href="Login">Services</a></div>
-            <div class="about"><a href="About">About</a></div>
+    <nav>
+        <div class="logo">
+            <img src="./DU_Logo.svg">
+        </div>
+        <div class="nav-bar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">My Work</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="programer-section">
+        <img src="./programmer.jpg">
+        <div>
+            <h1>Hello, I am Web Developer</h1>
+            <p>I use HTML and CSS to Convert webpage designs into beatiful and efficient websites.</p>
         </div>
     </div>
-    <div class="logo"><img src="./Darshanlogo.jpg" width="100%" height="500px"></div>
-    <div class="sentence"><h1>Hello,I am a Web Developer</h1><br>
-    I use HTML and CSS to convert webpage design into beautiful and efficient websites.</div>
-    <div class="program1" align="center">Program 1</div>
-    <div class="program1" align="center">Program 2</div>
-    <div class="program1" align="center">Program 3</div>
-    <div class="program1" align="center">Program 4</div>
-
+    <div class="programs-items">
+        <div>Program 1</div>
+        <div>Program 2</div>  
+        <div>Program 3</div>
+        <div>Program 4</div>
+    </div>
 </body>
 </html>

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab-14</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .background{
+            background-image: linear-gradient(rgb(249, 237, 237),rgb(234, 133, 133),rgb(249, 237, 237));
+            height: 100vh;
+            width: 70%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            padding: 5%;
+        }
+        .content{
+            height: 100%;
+            width: 100%;
+            background-color: white;
+        }
+        .imgCont{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(250, 236, 236);
+            float: left;
+        }
+        .info{
+            height: 100%;
+            width: 50%;
+            background-color: white;
+            float: right;
+            padding: 3% 3% 0% 3%;
+        }
+        .backToBed{
+            height: 3%;
+            width: 100%;
+            font-size: 13px;
+        }
+        a{
+            text-decoration: none;
+        }
+        .collEsse{
+            height: 14%;
+            width: 100%;
+            padding-top: 3%;
+        }
+        .quality{
+            height: 10%;
+            width: 100%;
+            padding-top: 2%;
+            font-size: 14px;
+        }
+        .items{
+            height: 43%;
+            width: 100%;
+        }
+        .butn{
+            background:transparent;
+            border-bottom:1px solid blue;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            width: 33%;
+            height: 33px;
+            float: left;
+        }
+        .card{
+            height: 45%;
+            width: 100%;
+            font-size: 13px;
+            border: 1px solid lightgrey;
+            margin-top: 3%;
+        }
+        #image{
+            height: 100%;
+            width: 30%;
+            float: left;
+        }
+        #information{
+            height: 100%;
+            width: 70%;
+            float: left;
+            padding: 3%;
+        }
+        #spacer{
+            height:20%;
+            width: 100%;
+/*            background-color: blue;*/
+            float: left;
+        }
+        #icon{
+            height: 20px;
+            width: 20px;
+            margin: 7%;
+        }
+        .floater{
+            height: 10%;
+            width: 70%;
+            background-color: white;
+            z-index: 3;
+            position: absolute;
+            top: 78%;
+            left: 17%;
+            border: 1px solid black;
+        }
+        text1{
+            font-size: 20px;
+        }
+        text2{
+            font-size: 14px;
+            color: grey;
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <div class="content">
+            <div class="floater">
+                <div name="pic" style="height:100%;width:15%;float: left;padding-left:35px;padding-top:14px ;">
+                    <img src="./set.jpg" height="80%" border="1px" />
+                </div>
+                <div name="information" style="height:100%;width:35%;float: left;padding-top: 2.5%;">
+                    <b><text1>College Essentials</text1></b><br>
+                    <text2>Everything you need for freshman year.</text2>
+                </div>
+                <div name="add" style="height:100%;width:15%;float: left;padding-top: 2.5%;font-size: 14px;">
+                    <b>Add Ons</b><br>
+                    <img src="./add.png" height="30%" />
+                </div>
+                <div name="price" style="height:100%;width:10%;float: left;padding-top: 3%;padding-left:3%;">
+                    <text1><b>$195</b></text1>
+                </div>
+                <div name="button" style="height:100%;width:25%;float: left;padding-top: 3%;padding-left: 2%;">
+                    <button style="background:darkblue;width: 90%;height: 45%;float: left;color: white;">Add to cart</button>
+                </div>
+            </div>
+            <div class="imgCont">
+                <div id="spacer">
+                    <div id="icon">
+                        <img src="./option.png"height="100%" />
+                    </div>
+                    <div id="icon">
+                        <img src="./search.png"height="100%" />
+                    </div>
+                </div>
+                <img src="./set.jpg" width="100%" />
+                <div id="spacer">
+                    <div id="icon">
+                        <img src="./profile.png"height="100%" />
+                    </div>
+                    <div id="icon">
+                        <img src="./bag.png"height="100%" />
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="backToBed">
+                        <a href="backToBedroom">
+                           <div style="height: 75%; width: 6%;float: left;"><img src="./back.png" height="100%"/></div>
+                            <b>Back to bedroom</b>
+                        </a>
+                </div>
+                <div class="collEsse">
+                    <div style="height: 15%;width: 100%;font-size: 11px;color: grey;font-weight: bold;">BEDROOM</div>
+                    <div style="height: 50%;width: 100%;font-size: 25px;padding-top: 2%;font-weight: bold;">College Essentials</div>
+                    <div style="height:35%;width: 100%;">
+                        <div style="height:100%;float: left;"><img src="./rating.jpg" height="100%" /></div>
+                        <div style="height:100%;float: left;padding: 1.5%;font-size: 13px;">4.4(328 reviews)</div>
+                    </div>
+                </div>
+                <div class="quality">
+                   <b>Select Quality</b>
+                   <div style="height:60%;width: 100%;float: left;margin-top: 1.5%;">
+                       <div>
+                        <button style="background:transparent;border: 1px solid lightgrey;width: 40%;height: 33px;float: left;">Basic</button>
+                        <button style="background:transparent;border: 1px solid lightgrey;width: 40%;height: 33px;float: left;">Premium</button>
+                        </div>
+                   </div> 
+                </div>
+                <div class="quality">
+                   <b>Style</b>
+                   <div style="height:60%;width: 100%;float: left;margin-top: 1.5%;">
+                       <div>
+                        <button style="background:transparent;border: 1px solid lightgrey;width: 22%;height: 30px;float: left;border-radius: 20px;margin-right:3%;">Minimal</button>
+                        <button style="background:transparent;border: 1px solid lightgrey;width: 22%;height: 30px;float: left;border-radius: 20px;margin-right:3%;">Bohemian</button>
+                        <button style="background:transparent;border: 1px solid lightgrey;width: 22%;height: 30px;float: left;border-radius: 20px;margin-right:3%;">Floral</button>
+                        <button style="background:transparent;border: 1px solid lightgrey;width: 22%;height: 30px;float: left;border-radius: 20px;margin-right:3%;">Other</button>
+                        </div>
+                   </div> 
+                </div>
+                <div class="quality">
+                   <b>Color</b>
+                   <div style="height:60%;width: 100%;float: left;margin-top: 1.5%;">
+                       <div>
+                        <button style="background:red;border: 1px solid lightgrey;width: 7.5%;height: 30px;float: left;border-radius: 20px;margin-right:3%;"></button>
+                        <button style="background:violet;border: 1px solid lightgrey;width: 7.5%;height: 30px;float: left;border-radius: 20px;margin-right:3%;"></button>
+                        <button style="background:purple;border: 1px solid lightgrey;width: 7.5%;height: 30px;float: left;border-radius: 20px;margin-right:3%;"></button>
+                        <button style="background:transparent;border: 1px solid lightgrey;width: 7.5%;height: 30px;float: left;border-radius: 20px;margin-right:3%;"></button>
+                        </div>
+                   </div> 
+                </div>
+                <div class="quality">
+                   <b>Style</b>
+                   <div style="height:60%;width: 100%;float: left;margin-top: 1.5%;">
+                       <div>
+                        <button style="background:transparent;border: 1px solid lightgrey;width: 22%;height: 30px;float: left;border-radius: 20px;margin-right:3%;">Twin XL</button>
+                        <button style="background:transparent;border: 1px solid lightgrey;width: 22%;height: 30px;float: left;border-radius: 20px;margin-right:3%;">Full</button>
+                        </div>
+                   </div> 
+                </div>
+                <div class="items">
+                    <div style="height:20%; width: 100%;padding-top: 4%;">
+                        <div style="height:60%;width: 100%;float: left;margin-top: 1.5%;">
+                           <div>
+                            <button class="butn"><b>What's Inside</b></button>
+                            <button class="butn" style="border-bottom: 1px solid lightgrey;"><b>Reviews</b></button>
+                            <button class="butn" style="border-bottom: 1px solid lightgrey;"><b>FAQ's</b></button>
+                            </div>
+                         </div>
+                    </div>
+                    <div style="height:80%; width: 100%;">
+                        <div style="height:20%;width: 100%;padding-top: 4%;"><b>Customizable Items</b></div>
+                        <div class="card">
+                            <div id="image">
+                                <img src="./comforter.jpg" height="100%" width="100%" />
+                            </div>
+                            <div id="information">
+                                <b>Blush Plush Comforter</b><br>
+                                See product details
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

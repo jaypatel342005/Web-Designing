@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .bg-pink{
+            background-color: pink!important
+        }
+        
+        .box-shadow {
+            box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+        }
+        .hover-overlay,button{
+            transition-duration: 0.3s;
+        }
+        .hover-overlay:hover{
+            transform: scale(1.05, 1.1);
+            background-color: pink;
+        }
+        .hover-overlay:hover button{
+            background-color: yellow!important;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="conainer-fluid text-center px-3 px-md-0 px-lg-0">
+        <p class="display-3">Pricing</p>
+        <p class="lead px-3 px-md-4 d-block mx-auto w-50">Sample Text Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic, optio?</p>
+    </div>
+    <div class="container my-4">
+        <div class="row px-5 px-md-0 px-lg-0">
+            <div class="my-5 text-center col-lg-3 col-md-6 col-sm-12 px-3">
+                <div class="card hover-overlay py-5 box-shadow">
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>10 users included</li>
+                          <li>2 GB of storage</li>
+                          <li>Email support</li>
+                          <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block bg-pink">Sign up for free</button>
+                    </div>
+                </div>
+            </div>
+            <div class="my-5 text-center col-lg-3 col-md-6 col-sm-12 px-3">
+                <div class="card hover-overlay py-5 box-shadow">
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>10 users included</li>
+                          <li>2 GB of storage</li>
+                          <li>Email support</li>
+                          <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block bg-pink">Sign up for free</button>
+                    </div>
+                </div>
+            </div>
+            <div class="my-5 text-center col-lg-3 col-md-6 col-sm-12 px-3">
+                <div class="card hover-overlay py-5 box-shadow">
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>20 users included</li>
+                          <li>10 GB of storage</li>
+                          <li>Priority email support</li>
+                          <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block bg-pink ">Get started</button>
+                    </div>
+                </div>
+            </div>
+            <div class="my-5 text-center col-lg-3 col-md-6 col-sm-12 flex-grow-1 px-3">
+                <div class="card hover-overlay py-5 box-shadow">
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                          <li>30 users included</li>
+                          <li>15 GB of storage</li>
+                          <li>Phone and email support</li>
+                          <li>Help center access</li>
+                        </ul>
+                        <button type="button" class="btn btn-lg btn-block bg-pink">Contact us</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
