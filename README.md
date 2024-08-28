@@ -66,13 +66,13 @@ The repository is organized according to the lab assignments outlined in the cou
 Web-Designing/
 ├── Lab1/
 │   ├── index.html
-│   ├── style.css
+│   
 ├── Lab2/
 │   ├── index.html
-│   ├── style.css
+│
 ├── Lab3/
 │   ├── index.html
-│   ├── style.css
+│   
 │   ...
 ├── README.md
 └── WD Lab manual.pdf
@@ -129,12 +129,13 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 ## 📘 Reference Manual
 
 For detailed instructions and explanations, refer to the [WD Lab Manual](https://github.com/jaypatel342005/Web-Designing/blob/main/WD%20Lab%20manual.pdf) included in this repository.
+https://github.com/jaypatel342005/Web-Designing/blob/main/WD%20Lab%20manual.pdf
 
 ## 📞 Contact
 
 If you have any questions or suggestions, feel free to reach out:
 
-- **Jay Patel** - [GitHub](https://github.com/jaypatel342005) | [Email](mailto:your-email@example.com)
+- **Jay Patel** - [GitHub](https://github.com/jaypatel342005) | [Email](pateljay97378@gmail.com)
 
 ---
 
