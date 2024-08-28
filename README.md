@@ -127,10 +127,11 @@ Contributions are welcome! To contribute:
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 
-📘 Reference Manual
-You can view the full WD Lab Manual directly in the repository:
 
-<a href="https://github.com/jaypatel342005/Web-Designing/blob/main/WD%20Lab%20manual.pdf" target="_blank"> <img src="https://img.shields.io/badge/View%20Lab%20Manual-PDF-orange" alt="WD Lab Manual"/> </a> <p align="center"> <iframe src="https://github.com/jaypatel342005/Web-Designing/blob/main/WD%20Lab%20manual.pdf" width="100%" height="600px"> This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/jaypatel342005/Web-Designing/blob/main/WD%20Lab%20manual.pdf">Download PDF</a> </iframe> </p>
+## 📘 Reference Manual
+
+For detailed instructions and explanations, refer to the [WD Lab Manual](https://github.com/jaypatel342005/Web-Designing/blob/main/WD%20Lab%20manual.pdf) included in this repository.
+
 
 ## 📞 Contact
 
