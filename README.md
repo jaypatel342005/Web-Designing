@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/licence/jaypatel342005/Web-Designing?style=flat-square" alt="License"/>
+  <img src="https://img.shields.io/github/license/jaypatel342005/Web-Designing?style=flat-square" alt="License"/>
   <img src="https://img.shields.io/github/stars/jaypatel342005/Web-Designing?style=social" alt="Stars"/>
   <img src="https://img.shields.io/github/forks/jaypatel342005/Web-Designing?style=social" alt="Forks"/>
 </p>
